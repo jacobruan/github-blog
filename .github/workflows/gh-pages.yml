@@ -26,6 +26,6 @@ jobs:
       - name: Publish generated content to GitHub Pages
         uses: tsunematsu21/actions-publish-gh-pages@v1.0.1
         with:
-          dir: ./public
-          branch: gh-pages
+          dir: public
+          branch: jacobruan.github.io
           token: ${{ secrets.ACCESS_TOKEN }}
