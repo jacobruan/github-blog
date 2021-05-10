@@ -28,4 +28,4 @@ jobs:
         with:
           dir: public
           branch: jacobruan.github.io
-          token: ${{ secrets.ACCESS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
