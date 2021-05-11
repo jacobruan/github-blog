@@ -64,7 +64,7 @@ enableEmoji = true
         pre = ""
         post = ""
         name = "About"
-        url = "/about/"
+        url = "/about"
         title = ""
         weight = 5
     [languages.en.params]
@@ -365,7 +365,7 @@ enableEmoji = true
       # whether to enable the table of the contents
       enable = true
       # whether to keep the static table of the contents in front of the post
-      keepStatic = false
+      keepStatic = true
       # whether to make the table of the contents in the sidebar automatically collapsed
       auto = true
     # Code config
